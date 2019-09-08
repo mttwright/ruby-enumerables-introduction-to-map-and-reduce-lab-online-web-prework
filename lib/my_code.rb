@@ -4,4 +4,7 @@
 def map_to_negativize(source_array)
   
   return_array = []
-  DFSDFJKSD
+  counter = 0
+  
+  while source_array[counter] do
+    return_array[counter] = source_array[counter] * -1
