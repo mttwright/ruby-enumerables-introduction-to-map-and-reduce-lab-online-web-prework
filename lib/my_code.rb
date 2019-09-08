@@ -72,7 +72,7 @@ def reduce_to_all_true(source_array)
   counter = 0
   verdict = false
 
-  while source_array[counter] do
+  while counter < source_array.length do
     if source_array[counter]
       verdict = true
     else
