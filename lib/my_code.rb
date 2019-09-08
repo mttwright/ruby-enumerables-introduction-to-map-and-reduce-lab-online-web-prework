@@ -71,19 +71,20 @@ def reduce_to_all_true(source_array)
   
   counter = 0
 
-  if source_array[counter]
-    
-    
-    
-    
-  else
-    return false
-  end
-  
-  
-end
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
