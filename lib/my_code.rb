@@ -11,4 +11,4 @@ def map_to_negativize(source_array)
     counter += 1
   end
   
-  return return_array
+  return ret
