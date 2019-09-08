@@ -70,16 +70,18 @@ end
 def reduce_to_all_true(source_array)
   
   counter = 0
+  verdict = false
 
-  
-
-
-
-
-
-
-
-
+  while source_array[counter] do
+    if source_array[counter]
+      verdict = true
+    else
+      verdict = false
+    end
+    counter += 1
+  end
+  verdict
+end
 
 
 
