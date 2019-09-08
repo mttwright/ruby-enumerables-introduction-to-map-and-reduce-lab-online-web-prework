@@ -8,3 +8,4 @@ def map_to_negativize(source_array)
   
   while source_array[counter] do
     return_array[counter] = source_array[counter] * -1
+    counter
