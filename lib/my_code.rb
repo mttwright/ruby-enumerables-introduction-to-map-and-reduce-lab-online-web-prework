@@ -70,13 +70,19 @@ end
 def reduce_to_all_true(source_array)
   
   counter = 0
-
-  if source_array[counter] == false || source_array[counter] == nil
-    return false
-  end
+  verdict = true
 
   while source_array[counter] do
     
+    if source_array[counter] == false || source_array[counter] == nil
+      return false
+    end
+    
+    counter += 1
+  end
+  
+  verdict
+end
     
     
     
